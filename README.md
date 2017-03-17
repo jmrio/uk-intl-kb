@@ -9,6 +9,10 @@ Some time ago, I bought a keyboard and a laptop a web store in UK. Obviously the
 
 I do not like use a different keyboard layout than the proper of the device, so I searched through the Internet, and I found a custom Windows design that I love.
 
+![Original keyboard layout](http://www.zolid.com/uk-intl-kb/UK-Intl%20WEur%20kb%20(v2.0).png) 
+###### [The image is property of the original developer](http://www.zolid.com/uk-intl-kb/index.htm)
+
+
 As a programmer I spend almost all my time in linux so I decided to porting the project to xkb.
 
 ## How to install
@@ -16,23 +20,24 @@ As a programmer I spend almost all my time in linux so I decided to porting the 
 1. Clone the repository where you want
 2. Open the repo folder
 3. Open a terminal in this folder and run as root
-```
-# cat uk-intl-kb >> /usr/share/X11/xkb/symbols/gb
-```
+
+> #cat uk-intl-kb >> /usr/share/X11/xkb/symbols/gb
+
 4. Open as root /usr/share/X11/xkb/rules/evdev.xml with your favourite text editor
 5. Search layoutList -> layout -> configItem -> gb
 6. Go to its variantList and add
+
 ```
-        <variant>
-          <configItem>
-            <name>intlextd</name>
-            <description>English (International, Extended)</description>
-          </configItem>
-        </variant>
+ <variant>
+     <configItem>
+         <name>intlextd</name>
+         <description>English (International, Extended)</description>
+     </configItem>
+ </variant>
 ```
 7. Select "English (Interantional, Extended)" in your keyboard layout
 8. Enjoy
 
 ## Original project and thanks
 
-So many thanks to James Campbell for the original project, you can download it from here: [Uk International Keyboard for Windows](http://www.zolid.com/uk-intl-kb/index.htm)
+So many thanks to James Campbell for the original project, you can download it from here: [UK International Keyboard for Windows](http://www.zolid.com/uk-intl-kb/index.htm)
