@@ -1,0 +1,70 @@
+
+partial alphanumeric_keys
+xkb_symbols "intlextd" {
+
+    // Clone of the Zolid "UK International keyboard" layout, 
+    // Although the emphasis is on Western European languages, 
+    // keyboard also supports all European languages written 
+    // in the Latin alphabet with many new letters and accents, 
+    // and it now supports combining accent marks so in theory 
+    // hundreds of combinations are now available. 
+    // Source http://www.zolid.com/uk-intl-kb/index.htm
+
+    include "latin"
+    name[Group1]= "English (International, Extended)";
+    key <TLDE> { [  dead_grave,    	 notsign,         	  grave,       		U0304 ] };
+    key <AE01> { [	     1,     	  exclam,    	     exclamdown,      		U0306 ] };
+    key <AE02> { [	     2,            U0022,    	          U0308, 	  twosuperior ] };
+    key <AE03> { [	     3, 	   U00A3, 		   yen , 	threesuperior ] };
+    key <AE04> { [	     4,     	  dollar,      	       EuroSign,         	U00BC ] };
+    key <AE05> { [	     5,    	  percent,      	  U030C,      	    	U00BD ] };
+    key <AE06> { [           6,   dead_circumflex,      	  U005E,      	threequarters ] };
+    key <AE07> { [	     7,  	ampersand,  leftdoublequotemark, rightdoublequotemark ] };
+    key <AE08> { [	     8,   	 asterisk, rightdoublequotemark,      		U2027 ] };
+    key <AE09> { [	     9,  	parenleft,  leftsinglequotemark, rightsinglequotemark ] };
+    key <AE10> { [	     0,        parenright, rightsinglequotemark,       dead_abovering ] };
+    key <AE11> { [       minus,        underscore,         	  U23BC,            	U23AF ] };
+    key <AE12> { [       equal,       	     plus,             multiply,             division ] };
+
+    key <AD01> { [	     q,          	Q,    	     adiaeresis,           Adiaeresis ] };
+    key <AD02> { [	     w,          	W,         	  aring,            	Aring ] };
+    key <AD03> { [	     e,          	E,        	 eacute,               Eacute ] };
+    key <AD04> { [	     r,          	R,    	     registered,                U2122 ] };
+    key <AD05> { [	     t,          	T,         	  thorn,            	THORN ] };
+    key <AD06> { [	     y,          	Y,    	 	 yacute,      	       Yacute ] };
+    key <AD07> { [	     u,          	U,        	 uacute,               Uacute ] };
+    key <AD08> { [	     i,          	I,        	 iacute,               Iacute ] };
+    key <AD09> { [	     o,          	O,        	 oacute,               Oacute ] };
+    key <AD10> { [	     p,          	P,    	     odiaeresis,       	   Odiaeresis ] };
+    key <AD11> { [ bracketleft,  	braceleft,  	  guillemotleft,         	U2039 ] };
+    key <AD12> { [bracketright,        braceright, 	 guillemotright, 	    	U203A ] };
+
+    key <AC01> { [	     a,          	A,        	 aacute,               Aacute ] };
+    key <AC02> { [	     s,          	S,        	 ssharp,              section ] };
+    key <AC03> { [	     d,          	D,           	    eth,              	  ETH ] };
+    key <AC04> { [	     f,          	F,         	  U01DD,            	U018E ] };
+    key <AC05> { [	     g,          	G,             	      g,                    G ] };
+    key <AC06> { [	     h,          	H,         	  U2020,            	U2021 ] };
+    key <AC07> { [	     j,          	J,    	     udiaeresis,           Udiaeresis ] };
+    key <AC08> { [	     k,          	K,            	     oe,               	   OE ] };
+    key <AC09> { [	     l,          	L,        	 oslash,             Ooblique ] };
+    key <AC10> { [   semicolon,      	    colon,     	      paragraph,            	U0335 ] };
+    key <AC11> { [  apostrophe,                at,    	     dead_acute,            	U2033 ] };
+    
+    key <AB01> { [	     z,          	Z,            	     ae,               	   AE ] };
+    key <AB02> { [	     x,          	X,         	  U0292,            	U01B7 ] };
+    key <AB03> { [	     c,          	C,     	      copyright,             	 cent ] };
+    key <AB04> { [	     v,          	V,             ccedilla,             Ccedilla ] };
+    key <AB05> { [	     b,          	B,         	  U014B,            	U014A ] };
+    key <AB06> { [	     n,          	N,        	 ntilde,               Ntilde ] };
+    key <AB07> { [	     m,          	M,            	     mu,            	U00B1 ] };
+    key <AB08> { [       comma,       	     less,  	   dead_cedilla,            	U0326 ] };
+    key <AB09> { [      period,    	  greater, 	  	  U22C5,    	dead_abovedot ] };
+    key <AB10> { [       slash,  	 question,  	   questiondown,      	  dead_ogonek ] };
+    key <BKSL> { [  numbersign,        asciitilde,         	  U0303,   	       U02DA  ] };
+
+    key <LSGT> { [   backslash,               bar,     	      brokenbar,   	dead_belowdot ] };
+
+
+    include "level3(ralt_switch)"
+};
