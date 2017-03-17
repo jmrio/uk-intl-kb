@@ -20,9 +20,9 @@ As a programmer I spend almost all my time in linux so I decided to porting the 
 1. Clone the repository where you want
 2. Open the repo folder
 3. Open a terminal in this folder and run as root
-
-> #cat uk-intl-kb >> /usr/share/X11/xkb/symbols/gb
-
+```
+# cat uk-intl-kb >> /usr/share/X11/xkb/symbols/gb
+```
 4. Open as root /usr/share/X11/xkb/rules/evdev.xml with your favourite text editor
 5. Search layoutList -> layout -> configItem -> gb
 6. Go to its variantList and add
