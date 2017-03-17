@@ -5,7 +5,7 @@
 Hi!
 I'm a spanish person.
 
-Some time ago, I bought a keyboard and a laptop a web store in UK. Obviously they come with UK keyboard layout.
+Some time ago, I bought a keyboard and a laptop in a web store in UK. Obviously they come with UK keyboard layout.
 
 I do not like use a different keyboard layout than the proper of the device, so I searched through the Internet, and I found a custom Windows design that I love.
 
