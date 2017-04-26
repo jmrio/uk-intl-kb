@@ -35,7 +35,7 @@ As a programmer I spend almost all my time in linux so I decided to porting the 
      </configItem>
  </variant>
 ```
-7. Select "English (Interantional, Extended)" in your keyboard layout
+7. Select "English (International, Extended)" in your keyboard layout
 8. Enjoy
 
 ## Original project and thanks
