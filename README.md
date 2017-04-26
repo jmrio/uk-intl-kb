@@ -27,7 +27,7 @@ As a programmer I spend almost all my time in linux so I decided to port the pro
 5. Search layoutList -> layout -> configItem -> gb
 6. Go to its variantList and add
 
-```
+```xml
  <variant>
      <configItem>
          <name>intlextd</name>
