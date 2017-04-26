@@ -7,13 +7,13 @@ I'm a spanish person.
 
 Some time ago, I bought a keyboard and a laptop in a web store in UK. Obviously they come with UK keyboard layout.
 
-I do not like use a different keyboard layout than the proper of the device, so I searched through the Internet, and I found a custom Windows design that I love.
+I do not like using a different keyboard layout than the proper of the device, so I searched through the Internet, and I found a custom Windows design that I love.
 
 ![Original keyboard layout](http://www.zolid.com/uk-intl-kb/UK-Intl%20WEur%20kb%20(v2.0).png) 
 ###### [The image is property of the original developer](http://www.zolid.com/uk-intl-kb/index.htm)
 
 
-As a programmer I spend almost all my time in linux so I decided to porting the project to xkb.
+As a programmer I spend almost all my time in linux so I decided to port the project to xkb.
 
 ## How to install
 
