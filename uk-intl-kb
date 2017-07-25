@@ -12,18 +12,18 @@ xkb_symbols "intlextd" {
 
     include "latin"
     name[Group1]= "English (International, Extended)";
-    key <TLDE> { [  dead_grave,    	 notsign,         	  grave,       		U0304 ] };
-    key <AE01> { [	     1,     	  exclam,    	     exclamdown,      		U0306 ] };
-    key <AE02> { [	     2,            U0022,    	          U0308, 	  twosuperior ] };
-    key <AE03> { [	     3, 	   U00A3, 		   yen , 	threesuperior ] };
+    key <TLDE> { [       grave,    	 notsign,            dead_grave,          dead_macron ] };
+    key <AE01> { [	     1,     	  exclam,    	     exclamdown,           dead_breve ] };
+    key <AE02> { [	     2,            U0022,    	 dead_diaeresis, 	  twosuperior ] };
+    key <AE03> { [	     3, 	   U00A3, 		    yen, 	threesuperior ] };
     key <AE04> { [	     4,     	  dollar,      	       EuroSign,         	U00BC ] };
-    key <AE05> { [	     5,    	  percent,      	  U030C,      	    	U00BD ] };
-    key <AE06> { [           6,   dead_circumflex,      	  U005E,      	threequarters ] };
-    key <AE07> { [	     7,  	ampersand,  leftdoublequotemark, rightdoublequotemark ] };
+    key <AE05> { [	     5,    	  percent,           dead_caron,      	    	U00BD ] };
+    key <AE06> { [           6,        circumflex,      dead_circumflex,      	threequarters ] };
+    key <AE07> { [	     7,  	ampersand,  leftdoublequotemark,   doublelowquotemark ] };
     key <AE08> { [	     8,   	 asterisk, rightdoublequotemark,      		U2027 ] };
-    key <AE09> { [	     9,  	parenleft,  leftsinglequotemark, rightsinglequotemark ] };
-    key <AE10> { [	     0,        parenright, rightsinglequotemark,       dead_abovering ] };
-    key <AE11> { [       minus,        underscore,         	  U23BC,            	U23AF ] };
+    key <AE09> { [	     9,  	parenleft,  leftsinglequotemark,   singlelowquotemark ] };
+    key <AE10> { [	     0,        parenright, rightsinglequotemark,               degree ] };
+    key <AE11> { [       minus,        underscore,         	 endash,               emdash ] };
     key <AE12> { [       equal,       	     plus,             multiply,             division ] };
 
     key <AD01> { [	     q,          	Q,    	     adiaeresis,           Adiaeresis ] };
@@ -48,8 +48,8 @@ xkb_symbols "intlextd" {
     key <AC07> { [	     j,          	J,    	     udiaeresis,           Udiaeresis ] };
     key <AC08> { [	     k,          	K,            	     oe,               	   OE ] };
     key <AC09> { [	     l,          	L,        	 oslash,             Ooblique ] };
-    key <AC10> { [   semicolon,      	    colon,     	      paragraph,            	U0335 ] };
-    key <AC11> { [  apostrophe,                at,    	     dead_acute,            	U2033 ] };
+    key <AC10> { [   semicolon,      	    colon,     	      paragraph,          dead_stroke ] };
+    key <AC11> { [  apostrophe,                at,    	     dead_acute,     dead_doubleacute ] };
     
     key <AB01> { [	     z,          	Z,            	     ae,               	   AE ] };
     key <AB02> { [	     x,          	X,         	  U0292,            	U01B7 ] };
@@ -58,10 +58,10 @@ xkb_symbols "intlextd" {
     key <AB05> { [	     b,          	B,         	  U014B,            	U014A ] };
     key <AB06> { [	     n,          	N,        	 ntilde,               Ntilde ] };
     key <AB07> { [	     m,          	M,            	     mu,            	U00B1 ] };
-    key <AB08> { [       comma,       	     less,  	   dead_cedilla,            	U0326 ] };
+    key <AB08> { [       comma,       	     less,  	   dead_cedilla,      dead_belowcomma ] };
     key <AB09> { [      period,    	  greater, 	  	  U22C5,    	dead_abovedot ] };
     key <AB10> { [       slash,  	 question,  	   questiondown,      	  dead_ogonek ] };
-    key <BKSL> { [  numbersign,        asciitilde,         	  U0303,   	       U02DA  ] };
+    key <BKSL> { [  numbersign,        asciitilde,           dead_tilde,       dead_abovering ] };
 
     key <LSGT> { [   backslash,               bar,     	      brokenbar,   	dead_belowdot ] };
 
