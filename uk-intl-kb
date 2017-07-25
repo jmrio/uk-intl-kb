@@ -20,7 +20,7 @@ xkb_symbols "intlextd" {
     key <AE05> { [	     5,    	  percent,           dead_caron,      	    	U00BD ] };
     key <AE06> { [           6,        circumflex,      dead_circumflex,      	threequarters ] };
     key <AE07> { [	     7,  	ampersand,  leftdoublequotemark,   doublelowquotemark ] };
-    key <AE08> { [	     8,   	 asterisk, rightdoublequotemark,      		U2027 ] };
+    key <AE08> { [	     8,   	 asterisk, rightdoublequotemark,       emfilledcircle ] };
     key <AE09> { [	     9,  	parenleft,  leftsinglequotemark,   singlelowquotemark ] };
     key <AE10> { [	     0,        parenright, rightsinglequotemark,               degree ] };
     key <AE11> { [       minus,        underscore,         	 endash,               emdash ] };
